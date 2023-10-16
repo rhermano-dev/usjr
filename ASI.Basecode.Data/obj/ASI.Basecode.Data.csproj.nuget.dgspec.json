@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Alliance\\usjr\\__\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {}
+    "C:\\Users\\julju\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Alliance\\usjr\\__\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {
+    "C:\\Users\\julju\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Alliance\\usjr\\__\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
+        "projectUniqueName": "C:\\Users\\julju\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
         "projectName": "ASI.Basecode.Data",
-        "projectPath": "D:\\Work\\Alliance\\usjr\\__\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
-        "packagesPath": "C:\\Users\\rhermano\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Alliance\\usjr\\__\\usjr\\ASI.Basecode.Data\\obj\\",
+        "projectPath": "C:\\Users\\julju\\usjr\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
+        "packagesPath": "C:\\Users\\julju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julju\\usjr\\ASI.Basecode.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\System\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rhermano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\julju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
