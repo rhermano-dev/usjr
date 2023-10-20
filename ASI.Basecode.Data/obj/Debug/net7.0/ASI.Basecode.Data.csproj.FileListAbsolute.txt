@@ -1,0 +1,14 @@
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\bin\Debug\net7.0\ASI.Basecode.Data.deps.json
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\bin\Debug\net7.0\ASI.Basecode.Data.runtimeconfig.json
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\bin\Debug\net7.0\ASI.Basecode.Data.dll
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\bin\Debug\net7.0\ASI.Basecode.Data.pdb
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.csproj.AssemblyReference.cache
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.AssemblyInfoInputs.cache
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.AssemblyInfo.cs
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.csproj.CoreCompileInputs.cache
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.dll
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\refint\ASI.Basecode.Data.dll
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.pdb
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ASI.Basecode.Data.genruntimeconfig.cache
+C:\Users\julju\source\repos\PoGo_Alliance\ASI.Basecode.Data\obj\Debug\net7.0\ref\ASI.Basecode.Data.dll

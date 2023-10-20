@@ -2,7 +2,33 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div class="container mt-5">
+    <!-- Add Books button on the upper right -->
+    <div class="d-flex justify-content-end mb-3">
+        <button class="btn btn-primary">Add Books</button>
+    </div>
+
+    <!-- List View of Books -->
+    <ul class="list-group">
+        <!-- Example Book Entry -->
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Book Title 1
+            <div>
+                <button class="btn btn-warning mr-2">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </div>
+        </li>
+        <!-- You can duplicate the above list item for more book entries -->
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Book Title 2
+            <div>
+                <button class="btn btn-warning mr-2">Edit</button>
+                <button class="btn btn-danger">Delete</button>
+            </div>
+        </li>
+        <!-- ... -->
+    </ul>
+</div>
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
