@@ -6,6 +6,8 @@ using ASI.Basecode.Services.ServiceModels;
 using ASI.Basecode.Services.Services;
 using ASI.Basecode.WebApp.Authentication;
 using ASI.Basecode.WebApp.Models;
+using ASI.Basecode.WebApp.Services;
+using Data.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.Extensions.Configuration;
@@ -35,10 +37,17 @@ namespace ASI.Basecode.WebApp
             // Services
             this._services.TryAddSingleton<TokenValidationParametersFactory>();
             this._services.AddScoped<IUserService, UserService>();
-          
+            this._services.AddScoped<IBookService, BookService>();
+            this._services.AddScoped<IAuthorService, AuthorService>();
+            this._services.AddScoped<IGenreService, GenreService>();
+            this._services.AddScoped<IBookReviewService, BookReviewService>();
 
             // Repositories
             this._services.AddScoped<IUserRepository, UserRepository>();
+            this._services.AddScoped<IBookRepository, BookRepository>();
+            this._services.AddScoped<IAuthorRepository, AuthorRepository>();
+            this._services.AddScoped<IGenreRepository, GenreRepository>();
+            this._services.AddScoped<IBookReviewRepository, BookReviewRepository>();
 
             // Manager Class
             this._services.AddScoped<SignInManager>();

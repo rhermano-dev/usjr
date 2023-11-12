@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using ASI.Basecode.Data.Models;
+using Data.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using ASI.Basecode.Data.Models;
 
 namespace ASI.Basecode.Data
 {
@@ -18,6 +16,11 @@ namespace ASI.Basecode.Data
         }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
+        public virtual DbSet<Genre> Genres { get; set; }
+        public virtual DbSet<BookReview> BookReviews { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(entity =>
@@ -54,6 +57,33 @@ namespace ASI.Basecode.Data
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });
+
+            modelBuilder.Entity<AuthorBook>()
+            .HasKey(ab => new { ab.AuthorId, ab.BookId });
+            modelBuilder.Entity<AuthorBook>()
+                .HasOne(ab => ab.Author)
+                .WithMany(a => a.AuthorBooks)
+                .HasForeignKey(ab => ab.AuthorId);
+            modelBuilder.Entity<AuthorBook>()
+                .HasOne(ab => ab.Book)
+                .WithMany(b => b.AuthorBooks)
+                .HasForeignKey(ab => ab.BookId);
+
+            modelBuilder.Entity<BookGenre>()
+                .HasKey(bg => new { bg.BookId, bg.GenreId });
+            modelBuilder.Entity<BookGenre>()
+                .HasOne(bg => bg.Book)
+                .WithMany(b => b.BookGenres)
+                .HasForeignKey(bg => bg.BookId);
+            modelBuilder.Entity<BookGenre>()
+                .HasOne(bg => bg.Genre)
+                .WithMany(g => g.BookGenres)
+                .HasForeignKey(bg => bg.GenreId);
+
+            modelBuilder.Entity<BookReview>()
+                .HasOne(br => br.Book)
+                .WithMany(b => b.BookReviews)
+                .HasForeignKey(br => br.BookId);
 
             OnModelCreatingPartial(modelBuilder);
         }
